@@ -3,6 +3,8 @@ import './portfolio.css'
 import {BiCheck} from 'react-icons/bi'
 import {SiAppstore} from 'react-icons/si'
 import {IoLogoGooglePlaystore} from 'react-icons/io5'
+import {BsPersonFill} from 'react-icons/bs'
+import {HiUserGroup} from 'react-icons/hi'
 import JantraRoyale from '../../assets/portfolio/jantraroyale.png'
 import ENavi from '../../assets/portfolio/enavi.png'
 import Lopas from '../../assets/portfolio/lopas.png'
@@ -10,7 +12,6 @@ import Poltrada from '../../assets/portfolio/poltrada.png'
 import TBM from '../../assets/portfolio/tbm.png'
 import TBMDriver from '../../assets/portfolio/tbmdriver.png'
 import Turnn from '../../assets/portfolio/turrn.png'
-import ap from '../../assets/ap.png'
 
 const Portfolio = () => {
   return (
@@ -30,11 +31,11 @@ const Portfolio = () => {
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>iOS Native</h3>Swift, Storyboard, MVC, Firebase</p>
+              <p><h3>iOS Native <BsPersonFill/></h3>Swift, Storyboard, MVC, Firebase</p>
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>Android Native</h3>Java, XML, MVC, Firebase</p>
+              <p><h3>Android Native <BsPersonFill/></h3>Java, XML, MVC, Firebase</p>
             </li>
             <li>
               <p>Jantra Royale is an apps for Jantrakakikaki customers and enthousiasts. This apps provide easy way to contact the workshop, make online reservation, getting coupons, member/loyalty card add other promotional initiatives from Jantrakakikaki. Jantrakakikaki, part of Janta Group, is the professional Workshop specialist for automobile suspension systems. Recondition of suspension such as Tie-rod, Long Tie-rod, Link-Stabil, Shock Absorbers, EPS (Electric Power Steering). Jantrakakikaki also provide Speed Balancing and spooring services.</p>
@@ -52,7 +53,7 @@ const Portfolio = () => {
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>iOS Native</h3>Swift, Storyboard, MVC, Firebase</p>
+              <p><h3>iOS Native <BsPersonFill/></h3>Swift, Storyboard, MVC, Firebase</p>
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
@@ -68,7 +69,7 @@ const Portfolio = () => {
           <ul className='portfolio__list'>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>iOS Native</h3>Swift, Storyboard, MVC, Firebase</p>
+              <p><h3>iOS Native <BsPersonFill/></h3>Swift, Storyboard, MVC, Firebase</p>
             </li>
             <li>
               <p>Lopas is a sales application with products that are needed by the wider community such as rice products etc.</p>
@@ -86,7 +87,7 @@ const Portfolio = () => {
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>Flutter</h3>Dart, Provider, MVC, Firebase</p>
+              <p><h3>Flutter <BsPersonFill/></h3>Dart, Provider, MVC, Firebase</p>
             </li>
             <li>
               <p>The Bali Poltrada Asset Information System (SIAP) is an application or booking system that can be downloaded by mobile. Bali Poltrada asset rental information can be published clearly, openly, transparently and in real time with smart service asset management. Users can easily access asset rental services at Poltrada Bali starting from asset type, availability, rental application, capacity confirmation, reservation and payment.</p>
@@ -105,11 +106,11 @@ const Portfolio = () => {
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>iOS Native</h3>Swift, Storyboard, MVC, Firebase</p>
+              <p><h3>iOS Native <HiUserGroup/></h3>Swift, Storyboard, MVC, Firebase</p>
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>Android Native</h3>Java, XML, MVC, Firebase</p>
+              <p><h3>Android Native <HiUserGroup/></h3>Java, XML, MVC, Firebase</p>
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
@@ -128,11 +129,11 @@ const Portfolio = () => {
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>iOS Native</h3>Swift, Storyboard, MVC, Firebase</p>
+              <p><h3>iOS Native <HiUserGroup/></h3>Swift, Storyboard, MVC, Firebase</p>
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>Android Native</h3>Java, XML, MVC, Firebase</p>
+              <p><h3>Android Native <HiUserGroup/></h3>Java, XML, MVC, Firebase</p>
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
@@ -152,11 +153,11 @@ const Portfolio = () => {
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>iOS Native</h3>Swift, Storyboard, VIPER, TDD</p>
+              <p><h3>iOS Native <HiUserGroup/></h3>Swift, Storyboard, VIPER, TDD</p>
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>Android Native</h3>Kotlin, XML, VIPER, TDD</p>
+              <p><h3>Android Native <HiUserGroup/></h3>Kotlin, XML, VIPER, TDD</p>
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
