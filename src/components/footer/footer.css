@@ -1,0 +1,6 @@
+footer {
+    background: var(--color-primary);
+    height: 3px;
+    border-radius: 1.5px;
+    margin-top: 7rem;
+}
