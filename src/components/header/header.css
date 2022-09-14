@@ -60,6 +60,7 @@ h4 {
 /* ========================= SCROLL DOWN ========================= */
 .scroll__down {
     position: absolute;
+    right: -4.3rem;
     bottom: 6.5rem;
     transform: rotate(90deg);
     font-weight: 200;
