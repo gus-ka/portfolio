@@ -1,1 +1,1 @@
-https://portfolio-gus-ka.vercel.app/
+https://gus-ka.github.io/portfolio/
