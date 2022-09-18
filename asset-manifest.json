@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.46596691.css",
+    "main.js": "/static/js/main.9084a66f.js",
+    "static/media/jantraroyale.png": "/static/media/jantraroyale.501f318c07cf7ea74526.png",
+    "static/media/tbmdriver.png": "/static/media/tbmdriver.2db869c4b813703f21da.png",
+    "static/media/enavi.png": "/static/media/enavi.00368050e8f6864e4c55.png",
+    "static/media/poltrada.png": "/static/media/poltrada.7af77067e60aeee8d2fc.png",
+    "static/media/tbm.png": "/static/media/tbm.92ad3f7faa1df47855e4.png",
+    "static/media/lopas.png": "/static/media/lopas.adaff96c346e6b6ec811.png",
+    "static/media/turrn.png": "/static/media/turrn.20e377271312a6d6e068.png",
+    "static/media/cv.pdf": "/static/media/cv.266bc08d55185c4e0a9a.pdf",
+    "static/media/me.jpeg": "/static/media/me.1d2a70c96464fe93630b.jpeg",
+    "static/media/ap.png": "/static/media/ap.33440fce112f4dc6702b.png",
+    "index.html": "/index.html",
+    "main.46596691.css.map": "/static/css/main.46596691.css.map",
+    "main.9084a66f.js.map": "/static/js/main.9084a66f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46596691.css",
+    "static/js/main.9084a66f.js"
+  ]
+}
