@@ -15,7 +15,7 @@ const Header = () => {
           </div>
           <h2 className="text-light">Mobility for everyone.</h2>
 
-          <h3>A passionate mobile app developer. I tend to make use of modern mobile technologies to build applications that looks great, feels fantastic, and functions correctly.</h3>
+          <h3>A passionate mobile app developer. I tend to make use of modern mobile technologies to build applications that look great, feel fantastic, and function correctly.</h3>
 
           <HeaderButtons/>
 

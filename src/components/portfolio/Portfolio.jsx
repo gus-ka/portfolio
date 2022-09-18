@@ -38,7 +38,7 @@ const Portfolio = () => {
               <p><h3>Android Native <BsPersonFill/></h3>Android Studio, Java, XML, MVC, Firebase</p>
             </li>
             <li>
-              <p>Jantra Royale is an apps for Jantrakakikaki customers and enthousiasts. This apps provide easy way to contact the workshop, make online reservation, getting coupons, member/loyalty card add other promotional initiatives from Jantrakakikaki. Jantrakakikaki, part of Janta Group, is the professional Workshop specialist for automobile suspension systems. Recondition of suspension such as Tie-rod, Long Tie-rod, Link-Stabil, Shock Absorbers, EPS (Electric Power Steering). Jantrakakikaki also provide Speed Balancing and spooring services.</p>
+              <p>Jantra Royale is an app for the Jantrakakikaki customers and enthousiasts. This app provides an easy way to contact a workshop, make an online reservation, getting a coupon, member or a loyalty card add other promotional initiatives from the Jantrakakikaki. The Jantrakakikaki is part of the Janta Group that is a professional workshop specialist for automobile suspension systems. Recondition of suspension such as Tie-rod, Long Tie-rod, Link-Stabil, Shock Absorbers, EPS (Electric Power Steering). The Jantrakakikaki also provide speed balancing and spooring services.</p>
             </li>
           </ul>
         </article>
