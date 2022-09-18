@@ -1,0 +1,49 @@
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    bottom: 0rem;
+    position: fixed;
+    right: 4rem;
+    top: 0px;
+}
+
+.email::before {
+    content: '';
+    width: 1px;
+    height: 7rem;
+    background: var(--color-primary);
+}
+
+.email__down {
+    position: absolute;
+    top: 12rem;
+    transform: rotate(90deg);
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+
+/* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
+
+@media screen and (max-width: 1024px) and (orientation:portrait) {
+    .email {
+        right: 4rem;
+    }
+}
+
+@media screen and (max-width: 1024px) and (orientation:landscape) {
+    .email {
+        right: 4rem;
+    }
+}
+
+
+/* ==================== MEDIA QUERIES (SMALL DEVICES) ==================== */
+
+@media screen and (max-width: 600px) {
+    .email {
+        right: 1.6rem;
+    }
+}

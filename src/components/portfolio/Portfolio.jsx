@@ -31,11 +31,11 @@ const Portfolio = () => {
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>iOS Native <BsPersonFill/></h3>Swift, Storyboard, MVC, Firebase</p>
+              <p><h3>iOS Native <BsPersonFill/></h3>XCode, Swift, Storyboard, MVC, Firebase</p>
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>Android Native <BsPersonFill/></h3>Java, XML, MVC, Firebase</p>
+              <p><h3>Android Native <BsPersonFill/></h3>Android Studio, Java, XML, MVC, Firebase</p>
             </li>
             <li>
               <p>Jantra Royale is an apps for Jantrakakikaki customers and enthousiasts. This apps provide easy way to contact the workshop, make online reservation, getting coupons, member/loyalty card add other promotional initiatives from Jantrakakikaki. Jantrakakikaki, part of Janta Group, is the professional Workshop specialist for automobile suspension systems. Recondition of suspension such as Tie-rod, Long Tie-rod, Link-Stabil, Shock Absorbers, EPS (Electric Power Steering). Jantrakakikaki also provide Speed Balancing and spooring services.</p>
@@ -53,10 +53,9 @@ const Portfolio = () => {
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>iOS Native <BsPersonFill/></h3>Swift, Storyboard, MVC, Firebase</p>
+              <p><h3>iOS Native <BsPersonFill/></h3>XCode, Swift, Storyboard, MVC, Firebase</p>
             </li>
             <li>
-              <BiCheck className='portfolio__list-icon'/>
               <p>"E Navi Stoma" was developed with the desire to support medical professionals involved in stoma care. The existing functions (catalog browsing, guidebook/information magazine browsing, anatomic chart function, video content browsing) have been taken over, making it easier to see and use. <a href="https://enavi-stoma.koshiya-mc.com/" target="_blank">Detail</a></p>
             </li>
           </ul>
@@ -69,7 +68,7 @@ const Portfolio = () => {
           <ul className='portfolio__list'>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>iOS Native <BsPersonFill/></h3>Swift, Storyboard, MVC, Firebase</p>
+              <p><h3>iOS Native <BsPersonFill/></h3>XCode, Swift, Storyboard, MVP, Firebase</p>
             </li>
             <li>
               <p>Lopas is a sales application with products that are needed by the wider community such as rice products etc.</p>
@@ -87,7 +86,7 @@ const Portfolio = () => {
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>Flutter <BsPersonFill/></h3>Dart, Provider, MVC, Firebase</p>
+              <p><h3>Flutter <BsPersonFill/></h3>VisualStudioCode, Dart, Provider, MVP, Firebase</p>
             </li>
             <li>
               <p>The Bali Poltrada Asset Information System (SIAP) is an application or booking system that can be downloaded by mobile. Bali Poltrada asset rental information can be published clearly, openly, transparently and in real time with smart service asset management. Users can easily access asset rental services at Poltrada Bali starting from asset type, availability, rental application, capacity confirmation, reservation and payment.</p>
@@ -106,14 +105,13 @@ const Portfolio = () => {
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>iOS Native <HiUserGroup/></h3>Swift, Storyboard, MVC, Firebase</p>
+              <p><h3>iOS Native <HiUserGroup/></h3>XCode, Swift, Storyboard, MVVM, Firebase</p>
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>Android Native <HiUserGroup/></h3>Java, XML, MVC, Firebase</p>
+              <p><h3>Android Native <HiUserGroup/></h3>Android Studio, Java, XML, MVVM, Firebase</p>
             </li>
             <li>
-              <BiCheck className='portfolio__list-icon'/>
               <p>TBM is an app that will give holidaymakers the freedom to customize their own unique travel experience on the go with the most unforgettable experience in Bali and Phuket. The app values are based on the following guiding principles: Safety, Convenience, Innovation, Good Deeds.</p>
             </li>
           </ul>
@@ -129,14 +127,13 @@ const Portfolio = () => {
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>iOS Native <HiUserGroup/></h3>Swift, Storyboard, MVC, Firebase</p>
+              <p><h3>iOS Native <HiUserGroup/></h3>XCode, Swift, Storyboard, MVVM, Firebase</p>
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>Android Native <HiUserGroup/></h3>Java, XML, MVC, Firebase</p>
+              <p><h3>Android Native <HiUserGroup/></h3>Android Studio, Java, XML, MVVM, Firebase</p>
             </li>
             <li>
-              <BiCheck className='portfolio__list-icon'/>
               <p>Tour By Me Driver uses only by a driver which is already register. The functionality of Tour By Me Driver in example View driver profile, Receive booking from user, View and edit driver availableness, View nearby popular place (restaurant, beach, etc), Send/receive an incoming message to/from user.</p>
             </li>
           </ul>
@@ -153,14 +150,13 @@ const Portfolio = () => {
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>iOS Native <HiUserGroup/></h3>Swift, Storyboard, VIPER, TDD</p>
+              <p><h3>iOS Native <HiUserGroup/></h3>XCode, Swift, Storyboard, VIPER, TDD</p>
             </li>
             <li>
               <BiCheck className='portfolio__list-icon'/>
-              <p><h3>Android Native <HiUserGroup/></h3>Kotlin, XML, VIPER, TDD</p>
+              <p><h3>Android Native <HiUserGroup/></h3>Android Studio, Kotlin, XML, VIPER, TDD</p>
             </li>
             <li>
-              <BiCheck className='portfolio__list-icon'/>
               <p>The new way of travelling. Plan, book and pay with one smart app. From now on, travel from door to door with all transport. Create an account today and start your journey. Travel without a subscription by shared bike, shared moped, shared car and all public transport in the Netherlands.</p>
             </li>
           </ul>

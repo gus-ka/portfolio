@@ -1,18 +1,46 @@
 header {
     height: 100vh;
-    padding-top: 4rem;
     overflow: hidden;
+    padding-left: 7rem;
+    padding-right: 7rem;
 }
 
-h4 {
-    margin-left: 3rem; 
-    margin-right: 3rem; 
+h3 {
+    color: var(--color-light);
+}
+
+.header__namecontent {
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.header__firsname {
+    color: var(--color-primary);
+}
+
+.header__lastname {
+    color: var(--color-bg-variant);
 }
 
 .header__container {
-    text-align: center;
+    text-align: left;
     height: 100%;
+    display: flex;
     position: relative;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+}
+
+/* ========================= HeaderButtons ========================= */
+.logo {
+    width: 300px;
+    aspect-ratio: 1/1;
+    display: flex;
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
 }
 
 /* ========================= HeaderButtons ========================= */
@@ -20,76 +48,123 @@ h4 {
     margin-top: 1.5rem;
     display: flex;
     gap: 1.2rem;
-    justify-content: center;
+    justify-content: left;
 }
 
-/* ========================= HeaderSocials ========================= */
-.header__socials {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
+/* ==================== MEDIA QUERIES (LARGE DEVICES) ==================== */
+
+@media screen and (max-width: 1624px) and (orientation:landscape) {
+    header {
+        height: 100vh;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .logo {
+        width: 100%;
+    }
 }
-
-.header__socials::after {
-    content: '';
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
-}
-
-
-/* ========================= ME ========================= */
-
-.me {
-    width: 200px;
-    aspect-ratio: 1/1;
-    display: flex;
-    border-radius: 2rem;
-    overflow: hidden;
-    justify-content: center;
-    margin: auto;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-
-/* ========================= SCROLL DOWN ========================= */
-.scroll__down {
-    position: absolute;
-    right: -4.3rem;
-    bottom: 6.5rem;
-    transform: rotate(90deg);
-    font-weight: 200;
-    font-size: 0.9rem;
-}
-
 
 /* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
 
 @media screen and (max-width: 1024px) and (orientation:portrait) {
     header {
-        height: 68vh;
+        height: 100vh;
     }
 }
 
+
 @media screen and (max-width: 1024px) and (orientation:landscape) {
-    header {
-        height: 100vh;
+    .logo {
+        width: 200%;
     }
 }
 
 
 /* ==================== MEDIA QUERIES (SMALL DEVICES) ==================== */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     header {
         height: 100vh;
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
-    .header__socials .scroll__down {
+}
+
+/* ==================== MEDIA QUERIES (SMALL DEVICES) ==================== */
+@media screen and (max-width: 600px)  and (orientation:portrait) {
+    header {
+        height: 100vh;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    h3 {
+        font-size: 12pt;
+    }
+    
+    h2 {
+        font-size: 15pt;
+    }
+
+    .header__namecontent {
+        justify-content: center;
+    }
+
+    .header__namecontent > h1 {
+        font-size: 20pt;
+    }
+
+    .header__container {
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .header__buttons {
+        margin-top: 1.5rem;
+        display: flex;
+        gap: 1.2rem;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 200px;
+    }
+}
+
+/* ==================== MEDIA QUERIES (EXTRA SMALL DEVICES) ==================== */
+
+@media screen and (max-width: 300px)  and (orientation:portrait) {
+    .logo {
         display: none;
+    }
+}
+
+
+
+
+@media screen and (max-height: 420px)  and (orientation:landscape) {
+    h3 {
+        font-size: 10pt;
+    }
+    
+    h2 {
+        font-size: 13pt;
+    }
+
+    .header__namecontent > h1 {
+        font-size: 15pt;
+    }
+
+    .logo {
+        width: 90%;
+    }
+
+    .header__buttons {
+        margin-top: 1rem;
     }
 }

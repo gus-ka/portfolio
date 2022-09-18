@@ -2,10 +2,16 @@ h5 {
     padding-top: 3rem;
 }
 
+img {
+    aspect-ratio: 1/1;
+}
+
 .portfolio__container {
     display: grid;
-    grid-template-columns: repeat(3, 1.5fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .portfolio {
@@ -17,7 +23,6 @@ h5 {
 }
 
 .portfolio:hover {
-    background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
@@ -30,7 +35,7 @@ h5 {
 }
 
 .portfolio__head h3 {
-    color: var(--color-bg);
+    color: var(--color-white);
     font-size: 1rem;
     padding: 0.5rem;
     text-align: center;
@@ -53,12 +58,13 @@ h5 {
 
 .portfolio__list p {
     font-size: 0.9rem;
+    color: var(--color-light);
 }
 
 
 /* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1350px) {
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
@@ -72,9 +78,11 @@ h5 {
 
 /* ==================== MEDIA QUERIES (SMALL DEVICES) ==================== */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 710px) {
     .portfolio__container {
         grid-template-columns: 1fr;
-        gap: 1.5rem;
+        gap: 1rem;
+        padding-left: 1.7rem;
+        padding-right: 1.8rem;
     }
 }

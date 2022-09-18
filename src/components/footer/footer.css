@@ -1,6 +1,16 @@
-footer {
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+}
+
+.footer__line {
     background: var(--color-primary);
     height: 3px;
     border-radius: 1.5px;
-    margin-top: 7rem;
+}
+
+.footer__item > p {
+    text-align-last: center;
+    color: var(--color-light);
 }
